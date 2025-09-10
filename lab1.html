@@ -4,8 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lab1</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      text-align: center;
+      background: linear-gradient(135deg, #beb8d7, #6640cc);
+      color: white;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h3 {
+      color: #beb8d7
+    }
+    section h2 {
+      color: #6640cc;
+    }
+    img {
+      max-width: 20%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-  <!-- your code goes here -->
+  <header>
+    <h1>Celine Ji-Won Choi</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <figure>
+        <img src="celine.jpg" alt="Celine Choi" />
+      </figure>
+      <p>I am a fourth year at UC Berkeley studying Computer Science! I am originally from Seoul, South Korea, but I've lived in multiple countries throughout my life — China, New Zealand, and now in the US.</p>
+      <p>I am a self-motivated and proactive learner who enjoys delving into the passion for programming through internships, contract work, personal projects, and coursework.</p>
+      <p>Outside of work, I like exploring cute cafes and trying their overpriced drinks, humming to catchy songs (back in my k-pop era), and playing various games (nintendo switch, board games etc.) with my friends!</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>PintOS</h3>
+        <p>Built an educational operating system that supports user-level multithreading, efficient resource management, and advanced file system features.</p>
+      </article>
+      <article>
+        <h3>Gitlet</h3>
+        <p>Designed to mimic features of Git, such as commit, branch, and checkout, by utilizing SHA-1 hashing and file serialization to support persistence.</p>
+      </article>
+      <article>
+        <h3>Dungeon Generator</h3>
+        <p>Developed Java-based engine for pseudorandom world generation, along with persistence programming for save and load functionality.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me through my email: <a href="mailto:celine.choi@example.com">celinejwchoi@berkeley.edu</a></p>
+      <p>Connect with me on <a href="https://www.linkedin.com/in/celinejwchoi" target="_blank">LinkedIn</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Celine's Website 
+  </footer>
 </body>
 </html>
